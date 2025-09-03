@@ -37,6 +37,9 @@
     width: 30%;
     margin-top: 10px;
 }
+.hero #heading{
+    color: #00c3ff;
+}
 
 .form{
     width: 100%;

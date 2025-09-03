@@ -3,13 +3,14 @@ import ScrollVelocity from './ScrollVelocity';
 import ContactForm from './Form';
 
 import "./hero.css";
+import { color } from 'framer-motion';
 
 export default function Hero() {
     const velocity = 30; // Adjust the velocity as needed
     return (
-        <div className="hero">
-
-            <h1>🚀Join the Innovation Revolution</h1>
+        <div className="hero"> 
+            <h1 id='heading'>techYantra by Robotics Club</h1>
+            <h2>🚀Join the Innovation Revolution</h2>
             <h3>Be the face of your <b>Semester</b></h3>
             <p>We’re looking for passionate students from each semester to join our organizing team as volunteers. This is your chance to take part in building something big!</p>
             <a href="#form" className="r-button"> <button>Register Now</button> </a>
