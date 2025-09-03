@@ -11,7 +11,7 @@ function ContactForm() {
     return (
         <form onSubmit={handleSubmit}>
             <label htmlFor="name">
-                Full Name
+                Full Name:
             </label>
             <input
                 id="name"
@@ -23,8 +23,9 @@ function ContactForm() {
                 field="name"
                 errors={state.errors}
             />
+            <br /><br />
             <label htmlFor="email">
-                Email Address
+                Email Address:
             </label>
             <input
                 id="email"
@@ -36,9 +37,24 @@ function ContactForm() {
                 field="email"
                 errors={state.errors}
             />
-            
+            <br /><br />
+            <label htmlFor="phone">
+                Phone Number:
+            </label>
+            <input
+                id="phone"
+                type="tel"
+                name="phone"
+                pattern="[0-9]{10}"
+            />
+            <ValidationError
+                prefix="Phone"
+                field="phone"
+                errors={state.errors}
+            />
+            <br /><br />
             <label htmlFor="semester">
-                Semester
+                Semester:
             </label>
             <input
                 id="semester"
@@ -52,8 +68,9 @@ function ContactForm() {
                 field="semester"
                 errors={state.errors}
             />
+            <br /><br />
             <label htmlFor="Branch">
-                Branch
+                Branch:
             </label>
             <input
                 id="branch"
@@ -65,18 +82,18 @@ function ContactForm() {
                 field="branch"
                 errors={state.errors}
             />
-            <label htmlFor="phone">
-                Phone Number
+            <br /><br />
+            <label htmlFor="event">
+                Event Interested In volunteering for:
             </label>
             <input
-                id="phone"
-                type="tel"
-                name="phone"
-                pattern="[0-9]{10}"
+                id="event"
+                type="text"
+                name="event"
             />
             <ValidationError
-                prefix="Phone"
-                field="phone"
+                prefix="event"
+                field="event"
                 errors={state.errors}
             />
             <br /><br />

@@ -1,6 +1,7 @@
 import React from 'react';
 import ScrollVelocity from './ScrollVelocity';
 import ContactForm from './Form';
+import Event from './Event';
 
 import "./hero.css";
 import { color } from 'framer-motion';
@@ -9,7 +10,7 @@ export default function Hero() {
     const velocity = 30; // Adjust the velocity as needed
     return (
         <div className="hero">
-            <h1 id='heading'>techYantra by Robotics Club</h1>
+            <h1 id='heading'>TechYantra by Robotics Club</h1>
             <h2>🚀Join the Innovation Revolution</h2>
             <h3>Be the face of your <b>Semester</b></h3>
             <p>We’re looking for passionate students from each semester to join our organizing team as volunteers. This is your chance to take part in building something big!</p>
@@ -27,6 +28,11 @@ export default function Hero() {
             </ul>
 
 
+            <h2>📝 Who Can Apply?</h2>
+            <p>All students from every semester are welcome to apply. Whether you’re a coding newbie or a tech whiz, we value your enthusiasm and fresh ideas!</p>
+            <p>Ready to make an impact? Fill out the form below to apply as a volunteer and be part of something amazing!</p>
+            <p>For any queries, reach out to us at <a href="mailto:abudardaansari66@gmail.com"></a> or contact us through our social media channels.</p>
+            <br /> <br />
             <ScrollVelocity
                 texts={[
                     'Unleash Your Creativity!',
@@ -37,13 +43,10 @@ export default function Hero() {
                 velocity={velocity}
                 className="custom-scroll-text"
             />
-
-            <h2>📝 Who Can Apply?</h2>
-            <p>All students from every semester are welcome to apply. Whether you’re a coding newbie or a tech whiz, we value your enthusiasm and fresh ideas!</p>
-            <p>Ready to make an impact? Fill out the form below to apply as a volunteer and be part of something amazing!</p>
-            <p>For any queries, reach out to us at <a href="mailto:abudardaansari66@gmail.com"></a> or contact us through our social media channels.</p>
-
-
+            <br /> <br />
+            <Event />
+            <br /> <br />
+            
             <div className="form">
                 <h2 id="form">Volunteer Registration Form</h2>
                 <ContactForm />

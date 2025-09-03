@@ -23,7 +23,7 @@ export default function Navbar() {
           <a href="#"><i class="fa-regular fa-house"></i>  Home</a>
           <a href="#contact"><i class="fa-regular fa-file-code"></i>  Contact</a>
           <a href="#form"><i class="fa-regular fa-envelope"></i>  Join Us</a>
-          <a href="#"><i class="fa-regular fa-user"></i> About</a>
+          <a href="#event"><i class="fa-regular fa-user"></i> Events</a>
         </div>
         <div className="toggle-button" onClick={toggleActive}>
           <i className={`fa-solid fa-${active ? 'bars' : 'xmark'}`}></i>
@@ -34,7 +34,7 @@ export default function Navbar() {
         <a href="#"><i class="fa-regular fa-house"></i>  Home</a>
         <a href="#contact"><i class="fa-regular fa-file-code"></i> Contact</a>
         <a href="#form"><i class="fa-regular fa-envelope"></i>  Join Us</a>
-        <a href="#"><i class="fa-regular fa-user"></i>  About</a>
+        <a href="#event"><i class="fa-regular fa-user"></i> Events</a>
       </div>
 
     </nav>
