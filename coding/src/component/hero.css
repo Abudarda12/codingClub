@@ -4,6 +4,10 @@
     flex-direction: column;
     color: white;
     padding: 20px;
+    a{
+        text-decoration: none;
+        color: white;
+    }
 }
 .hero h1{
     font-size: 36px;
@@ -39,6 +43,14 @@
 }
 .hero #heading{
     color: #00c3ff;
+}
+
+.hero .member{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 20px;
 }
 
 .form{
@@ -110,6 +122,10 @@ form button:hover{
 
     .hero ul {
         font-size: 14px;
+    }
+    .hero .member{
+        flex-direction: column;
+        align-items: center;
     }
 
 }

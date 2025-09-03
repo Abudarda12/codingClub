@@ -21,7 +21,7 @@ export default function Navbar() {
 
         <div className="right-nav" >
           <a href="#"><i class="fa-regular fa-house"></i>  Home</a>
-          <a href="#footer"><i class="fa-regular fa-file-code"></i>  Contact</a>
+          <a href="#contact"><i class="fa-regular fa-file-code"></i>  Contact</a>
           <a href="#form"><i class="fa-regular fa-envelope"></i>  Join Us</a>
           <a href="#"><i class="fa-regular fa-user"></i> About</a>
         </div>
@@ -32,7 +32,7 @@ export default function Navbar() {
 
       <div className={`nav-links ${!active ? 'active' : ''}`}>
         <a href="#"><i class="fa-regular fa-house"></i>  Home</a>
-        <a href="#footer"><i class="fa-regular fa-file-code"></i> Contact</a>
+        <a href="#contact"><i class="fa-regular fa-file-code"></i> Contact</a>
         <a href="#form"><i class="fa-regular fa-envelope"></i>  Join Us</a>
         <a href="#"><i class="fa-regular fa-user"></i>  About</a>
       </div>
