@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Navbar from './component/Navbar'
-import Hero from './component/hero'
+import Hero from './component/Hero';
 import Footer from './component/Footer'
 import './App.css'
 
