@@ -48,13 +48,13 @@ export default function Hero() {
             <br /> <br />
             
             <div className="form">
-                <h2 id="form">Volunteer Registration Form</h2>
+                <h2 id="form">Want to Volunteer for Web Development and Programming Contest? Apply here!</h2>
                 <ContactForm />
             </div>
             <br /> <br />
             <div className="contact" id='contact'>
                 <h2>📞 Contact Us</h2>
-                <p>Email: <a href="abuardaansari66@gmail.com">techyantra@gmail.com</a></p>
+                <p>Email: <a href="abuardaansari66@gmail.com">abudardaansari66@gmail.com</a></p>
                 <p>Phone: 6306057161</p>
                 <p>Web Developent and Programming Contest </p>
                 <b>Co-Ordinater - Abudarda Ansari</b>
@@ -72,6 +72,7 @@ export default function Hero() {
                         <li>Rishabh Jain - 7361974071</li>
                         <li>Ritik Gupta - 7870918608</li>
                         <li>Shobhit Rajan - 8252848748</li>
+                        <li>Saurav Singh - 7870918608</li>
                     </div>
                 </div>
             </div>
