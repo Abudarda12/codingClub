@@ -54,8 +54,10 @@ export default function Hero() {
             <br /> <br />
             <div className="contact" id='contact'>
                 <h2>📞 Contact Us</h2>
-                <p>Email: <a href="mailto:techyantra@gmail.com">techyantra@gmail.com</a></p>
-                <p>Phone: +91-1234567890</p>
+                <p>Email: <a href="abuardaansari66@gmail.com">techyantra@gmail.com</a></p>
+                <p>Phone: 6306057161</p>
+                <p>Web Developent and Programming Contest </p>
+                <b>Co-Ordinater - Abudarda Ansari</b>
                 <div className="member">
                     <div className="prof">
                         <h3>Prof. Incharge</h3>

@@ -83,20 +83,6 @@ function ContactForm() {
                 errors={state.errors}
             />
             <br /><br />
-            <label htmlFor="event">
-                Event Interested In volunteering for:
-            </label>
-            <input
-                id="event"
-                type="text"
-                name="event"
-            />
-            <ValidationError
-                prefix="event"
-                field="event"
-                errors={state.errors}
-            />
-            <br /><br />
             <button type="submit" disabled={state.submitting}>
                 Submit
             </button>
