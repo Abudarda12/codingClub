@@ -8,7 +8,7 @@ export default function Footer() {
             <p>Follow us on 
                 <a href="#" target="_blank" rel="noopener noreferrer"> Facebook</a>, 
                 <a href="#" target="_blank" rel="noopener noreferrer"> Twitter</a>, 
-                <a href="#" target="_blank" rel="noopener noreferrer"> Instagram</a>
+                <a href="https://www.instagram.com/mecha_gecbhojpur/" target="_blank" rel="noopener noreferrer"> Instagram</a>
             </p>
         </footer>
     );

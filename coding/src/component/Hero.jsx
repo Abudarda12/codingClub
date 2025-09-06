@@ -15,8 +15,8 @@ export default function Hero() {
                 A platform for students to explore, compete, and showcase their talent in robotics, coding, and innovation. Come solo or form a team—your ideas matter here.</h3>
             <br /><br />
             <div className="r-button">
-                <a href="#form" > <button>Register Now</button> </a>
-                <a href="#form" > <button>Contact Us</button> </a>
+                <a href="#event" > <button>Register Now</button> </a>
+                <a href="#contact" > <button>Contact Us</button> </a>
             </div>
             <br /> <br />
 
@@ -60,7 +60,7 @@ export default function Hero() {
                     <div className="prof">
                         <h3>Prof. Incharge</h3>
                         <li>Prof. Pallavi</li>
-                        <li>Dr. Sanjeev Kumar Sajjan</li>
+                        <li>Dr. Sanjeev Kumar</li>
                         <li>Prof. Surbhi Sakshi</li>
                         <li>Prof. Jitendra Kumar</li>
                     </div>
