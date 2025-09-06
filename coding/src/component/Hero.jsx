@@ -46,7 +46,6 @@ export default function Hero() {
 
             <div className="form">
                 <h2 id="form">Want to  Apply here!</h2>
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScCWT209Cf7sCwgRyeJuaHWSqdtw8Tvs_YIEHyQbet_V2E4kA/viewform?embedded=true" width="100%" height="1400px" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             </div>
             <br /> <br />
             <div className="contact" id='contact'>
