@@ -20,14 +20,17 @@ export default function Hero() {
             </div>
             <br /> <br />
 
-            <h2>🌟 Event Highlights</h2>
+            <h2 className='event-highlight'> Event Highlights</h2>
 
-            <li> 🏛 Venue: GEC Bhojpur Campus</li>
-            <li>👥 Participation: Individual or Team</li>
-            <li>⚡ Last Date to Register: 09 September 2025</li>
-            <li>📅 Event Date: 11-12 September 2025</li>
-            <h2>📝 Who Can Apply?</h2>
-            <p>All students from every semester are welcome to apply. Whether you’re a coding newbie or a tech whiz, we value your enthusiasm and fresh ideas!</p>
+            <div className="highlight">
+                <li>Venue: GEC Bholpur Campus</li>
+                <li>Dates: 11–12 September 2025</li>
+                <li>Participation: Solo or Team</li>
+                <li>Registration closes: 9 September 2025</li>
+            </div>
+            <br />
+            <h2>Who Can Join?</h2>
+            <p>Open to all students, across all semesters and branches. No prior experience required—just enthusiasm and curiosity.</p>
 
             <br /> <br />
             <ScrollVelocity
@@ -44,16 +47,15 @@ export default function Hero() {
             <Event />
             <br /> <br />
 
-            <div className="form">
-                <h2 id="form">Want to  Apply here!</h2>
-            </div>
+            
             <br /> <br />
             <div className="contact" id='contact'>
                 <h2>📞 Contact Us</h2>
-                <p>Email: <a href="abuardaansari66@gmail.com">abudardaansari66@gmail.com</a></p>
-                <p>Phone: 6306057161</p>
-                <p>Web Developent and Programming Contest </p>
-                <b>Co-Ordinater - Abudarda Ansari</b>
+                <p>Email: <a href="gecbhojpur@gmail.com">gecbhojpur@gmail.com</a></p>
+                <p>Phone: 6182-222140
+                </p>
+                <p>Robotics Club</p>
+      
                 <div className="member">
                     <div className="prof">
                         <h3>Prof. Incharge</h3>
@@ -64,6 +66,7 @@ export default function Hero() {
                     </div>
                     <div className="coordinator">
                         <h3>Student Coordinators</h3>
+                        <li>Nand Swami - 7361974071</li>
                         <li>Vishal Kumar - 910219939</li>
                         <li>Rishabh Jain - 7361974071</li>
                         <li>Ritik Gupta - 7870918608</li>
