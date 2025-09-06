@@ -11,27 +11,22 @@ export default function Hero() {
     return (
         <div className="hero">
             <h1 id='heading'>TechYantra by Robotics Club</h1>
-            <h2>🚀Join the Innovation Revolution</h2>
-            <h3>Be the face of your <b>Semester</b></h3>
-            <p>We’re looking for passionate students from each semester to join our organizing team as volunteers. This is your chance to take part in building something big!</p>
+            <h2>🚀 Tech Yantra 2025 – Unleash Your Talent!</h2>
+            <h3>Join the ultimate technical & robotics event at GEC Bhojpur. Compete solo or in teams and showcase your skills!</h3>
+
             <a href="#form" className="r-button"> <button>Register Now</button> </a>
             <br /> <br />
 
-            <h2>🌟 Why Volunteer?</h2>
-            <ul>
-                <li>🎯 Gain leadership & team experience</li>
-                <li>🤝 Network with industry experts</li>
-                <li>💡 Learn new skills & technologies</li>
-                <li>🏆 Earn certificates & swag</li>
-                <li>🌐 Be part of a vibrant tech community</li>
-
-            </ul>
-
-
+            <h2>🌟 Event Highlights</h2>
+           
+                <li>🌟 Event Highlights</li>
+                <li> 🏛 Venue: GEC Bhojpur Campus</li>
+                <li>👥 Participation: Individual or Team</li>
+                <li>⚡ Last Date to Register: 09 September 2025</li>
+                <li>📅 Event Date: 11-12 September 2025</li>
             <h2>📝 Who Can Apply?</h2>
             <p>All students from every semester are welcome to apply. Whether you’re a coding newbie or a tech whiz, we value your enthusiasm and fresh ideas!</p>
-            <p>Ready to make an impact? Fill out the form below to apply as a volunteer and be part of something amazing!</p>
-            <p>For any queries, reach out to us at <a href="mailto:abudardaansari66@gmail.com"></a> or contact us through our social media channels.</p>
+     
             <br /> <br />
             <ScrollVelocity
                 texts={[
@@ -46,10 +41,10 @@ export default function Hero() {
             <br /> <br />
             <Event />
             <br /> <br />
-            
+
             <div className="form">
-                <h2 id="form">Want to Volunteer for Web Development and Programming Contest? Apply here!</h2>
-                <ContactForm />
+                <h2 id="form">Want to  Apply here!</h2>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScCWT209Cf7sCwgRyeJuaHWSqdtw8Tvs_YIEHyQbet_V2E4kA/viewform?embedded=true" width="100%" height="1400px" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             </div>
             <br /> <br />
             <div className="contact" id='contact'>

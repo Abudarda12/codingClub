@@ -7,3 +7,44 @@ h1{
 #event{
     margin: auto;
 }
+.event-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.glass-card {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgba(255, 255, 255, 0.18);
+    border-radius: 16px;
+    box-shadow: 0 6px 36px rgba(0, 195, 247, 0.12), 0 1.5px 8px rgba(0,0,0,0.08);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1.5px solid rgba(0, 195, 247, 0.25);
+    padding: 1.5rem;
+    width: 300px;
+    height: 200px;
+    margin: 1rem 0;
+    color: #fff;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s cubic-bezier(.25,.8,.25,1), box-shadow 0.2s cubic-bezier(.25,.8,.25,1);
+    cursor: pointer;
+    /* Subtle gradient overlay */
+    background-image: linear-gradient(135deg, rgba(0,195,247,0.08) 0%, rgba(255,255,255,0.10) 100%);
+    /* Slight inner glow */
+    box-shadow: 0 0 0 4px rgba(0,195,247,0.07) inset, 0 6px 36px rgba(0, 195, 247, 0.12), 0 1.5px 8px rgba(0,0,0,0.08);
+}
+.glass-card:hover {
+    transform: scale(1.08) rotate(-2deg);
+    box-shadow: 0 12px 48px rgba(0,0,0,0.25);
+    border-color: #00c3f7;
+    background: rgba(0, 195, 247, 0.18);
+    color: #00c3f7;
+    transition: 
+        transform 0.3s cubic-bezier(.25,.8,.25,1),
+        box-shadow 0.3s cubic-bezier(.25,.8,.25,1),
+        border-color 0.3s,
+        background 0.3s,
+        color 0.3s;
+}
