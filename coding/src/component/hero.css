@@ -53,7 +53,7 @@
     padding: 20px;
 }
 
-.form{
+/* .form{
     width: 100%;
 }
 
@@ -93,12 +93,12 @@ form button{
 }
 form button:hover{
     background-color: #45a049;
-}
+} */
 
 @media screen and (max-width: 768px) {
 
     .hero {
-        width: 90%;
+        width: 95%;
         height: auto;
         margin-top: 20px;
         margin-bottom: 20px;
