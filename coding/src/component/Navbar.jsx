@@ -20,7 +20,7 @@ export default function Navbar() {
         </div>
 
         <div className="right-nav" >
-          <a href="#"><i class="fa-regular fa-house"></i>  Home</a>
+          <a href="#home"><i class="fa-regular fa-house"></i>  Home</a>
           <a href="#contact"><i class="fa-regular fa-file-code"></i>  Contact</a>
           <a href="#form"><i class="fa-regular fa-envelope"></i>  Join Us</a>
           <a href="#event"><i class="fa-regular fa-user"></i> Events</a>

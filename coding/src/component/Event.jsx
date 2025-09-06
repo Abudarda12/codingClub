@@ -1,8 +1,9 @@
 import React from 'react';
 import "./event.css";
+import { form } from 'framer-motion/client';
 
 const events = [
-    { title: "Idea Pitching", desc: "Present innovative solutions for real-life problem statements.", pdf: "/pdfs/idea-pitching.pdf" },
+    { title: "Idea Pitching", desc: "That crazy idea you once thought of, Maybe it's worth pitching!", pdf: "/pdfs/idea-pitching.pdf",form: "https://docs.google.com/forms/d/e/1FAIpQLSdHm-XGqxZ6hZa5HaoG3JWzk5oh--G2gZwtjLlkYHdCsDMkRg/viewform?usp=header" },
     { title: "Circuit Designing", desc: "Showcase your circuit building skills.", pdf: "/pdfs/circuit-designing.pdf" },
     { title: "Robo Sumo War", desc: "Compete with robots in a sumo-style showdown.", pdf: "/pdfs/robo-sumo-war.pdf" },
     { title: "Robo Race / Hurdle Mania", desc: "Speed and accuracy on an obstacle track.", pdf: "/pdfs/robo-race-hurdle-mania.pdf" },
@@ -32,6 +33,14 @@ export default function Event() {
                             className="pdf-btn"
                         >
                             View Details PDF
+                        </a>
+                        <a
+                            href={ev.form}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="pdf-btn"
+                        >
+                            Participate Now
                         </a>
                     </div>
                 ))}

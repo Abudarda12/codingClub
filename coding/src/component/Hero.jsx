@@ -11,22 +11,24 @@ export default function Hero() {
     return (
         <div className="hero">
             <h1 id='heading'>TechYantra by Robotics Club</h1>
-            <h2>🚀 Tech Yantra 2025 – Unleash Your Talent!</h2>
-            <h3>Join the ultimate technical & robotics event at GEC Bhojpur. Compete solo or in teams and showcase your skills!</h3>
-
-            <a href="#form" className="r-button"> <button>Register Now</button> </a>
+            <h3 className='subheading'>TechYantra 2025 is the annual tech and robotics fest of GEC Bholpur.
+                A platform for students to explore, compete, and showcase their talent in robotics, coding, and innovation. Come solo or form a team—your ideas matter here.</h3>
+            <br /><br />
+            <div className="r-button">
+                <a href="#form" > <button>Register Now</button> </a>
+                <a href="#form" > <button>Contact Us</button> </a>
+            </div>
             <br /> <br />
 
             <h2>🌟 Event Highlights</h2>
-           
-                <li>🌟 Event Highlights</li>
-                <li> 🏛 Venue: GEC Bhojpur Campus</li>
-                <li>👥 Participation: Individual or Team</li>
-                <li>⚡ Last Date to Register: 09 September 2025</li>
-                <li>📅 Event Date: 11-12 September 2025</li>
+
+            <li> 🏛 Venue: GEC Bhojpur Campus</li>
+            <li>👥 Participation: Individual or Team</li>
+            <li>⚡ Last Date to Register: 09 September 2025</li>
+            <li>📅 Event Date: 11-12 September 2025</li>
             <h2>📝 Who Can Apply?</h2>
             <p>All students from every semester are welcome to apply. Whether you’re a coding newbie or a tech whiz, we value your enthusiasm and fresh ideas!</p>
-     
+
             <br /> <br />
             <ScrollVelocity
                 texts={[
