@@ -4,7 +4,7 @@ import { form } from 'framer-motion/client';
 
 const events = [
     { title: "Idea Pitching", desc: "That crazy idea you once thought of, Maybe it's worth pitching!", pdf: "https://drive.google.com/file/d/16cYCwWZVgiuwnSDk9DoG2Yi2Fc7iZJFk/view?usp=drivesdk", form: "https://docs.google.com/forms/d/e/1FAIpQLSdHm-XGqxZ6hZa5HaoG3JWzk5oh--G2gZwtjLlkYHdCsDMkRg/viewform?usp=header" },
-    { title: "Circuit Designing", desc: "Showcase your circuit building skills.", pdf: "/pdfs/circuit-designing.pdf" },
+    { title: "Circuit Designing", desc: "Showcase your circuit building skills.", pdf: "/pdfs/circuit-designing.pdf",form:"https://docs.google.com/forms/d/e/1FAIpQLSdTmPzzuZqmLHsh_DMVw_QPr2nt8jcLsf_t28okf0GxAq1n8Q/viewform?usp=dialog" },
     { title: "Robo Sumo War", desc: "Compete with robots in a sumo-style showdown.", pdf: "https://drive.google.com/file/d/1732vLBhgdL3gVSupATBC25Z0Pnp6UYZ7/view?usp=drivesdk",form: "https://docs.google.com/forms/d/e/1FAIpQLSes5ENEZas-3hCjl0wqlfE9U_mQxshKQItOFgWyKcFw1ypizA/viewform" },
     { title: "Robo Race / Hurdle Mania", desc: "Speed and accuracy on an obstacle track.", pdf: "https://drive.google.com/file/d/16fA0ZNWZylgWUUp-U8DKWXLNqjd9B6al/view?usp=drivesdk",form: "https://docs.google.com/forms/d/e/1FAIpQLSf82xzkn7d6ysohMsFAAmyaiwmMiOIWOH88Ntyfeqvai6bjug/viewform?usp=sharing&ouid=10568440" },
     { title: "Website Designing", desc: "Design creative and functional websites.", pdf: "https://drive.google.com/file/d/16Z_9153gLaTHdI1S2jv8CYopJABAu2fw/view?usp=drivesdk",form:"https://docs.google.com/forms/d/e/1FAIpQLSdvE8oWHYushYrMkP3d19zjZq1fHfDWERkTAiZmv7YCDYdaAQ/viewform?usp=header" },
