@@ -11,7 +11,7 @@ export default function Hero() {
     return (
         <div className="hero">
             <h1 id='heading'>TechYantra by Robotics Club</h1>
-            <h3 className='subheading'>TechYantra 2025 is the annual tech and robotics fest of GEC Bholpur.
+            <h3 className='subheading'>TechYantra 2025 is the annual tech and robotics event of GEC Bhojpur.
                 A platform for students to explore, compete, and showcase their talent in robotics, coding, and innovation. Come solo or form a team—your ideas matter here.</h3>
             <br /><br />
             <div className="r-button">
@@ -30,7 +30,7 @@ export default function Hero() {
             </div>
             <br />
             <h2>Who Can Join?</h2>
-            <p>Open to all students, across all semesters and branches. No prior experience required—just enthusiasm and curiosity.</p>
+            <p>Open to all students of GEC Bhojpur, across all semesters and branches. No prior experience required—just enthusiasm and curiosity.</p>
 
             <br /> <br />
             <ScrollVelocity
