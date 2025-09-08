@@ -23,7 +23,7 @@ export default function Hero() {
             <h2 className='event-highlight'> Event Highlights</h2>
 
             <div className="highlight">
-                <li>Venue: GEC Bholpur Campus</li>
+                <li>Venue: GEC Bhojpur Campus</li>
                 <li>Dates: 11–12 September 2025</li>
                 <li>Participation: Solo or Team</li>
                 <li>Registration closes: 9 September 2025</li>
